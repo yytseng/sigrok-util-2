@@ -80,7 +80,7 @@ fi
 # -----------------------------------------------------------------------------
 
 # libusb
-$GIT_CLONE git://github.com/dickens/libusb -b event-abstraction-v4
+$GIT_CLONE git://github.com/uwehermann/libusb -b event-abstraction-v4
 cd libusb
 ./bootstrap.sh
 ./configure $C $L
